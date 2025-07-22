@@ -1,7 +1,9 @@
-🗳️ Survey Management System
+# 🗳️ Survey Management System
+
 A full-stack web application for managing surveys with user authentication, question management, and response tracking.
 
-🚀 Features
+# 🚀 Features
+
 👤 User authentication and authorization (JWT)
 
 📋 Create, edit, and delete surveys
@@ -13,8 +15,11 @@ A full-stack web application for managing surveys with user authentication, ques
 🛡️ Middleware-protected routes
 
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
+
+
 🧠 Frontend
+
 React.js
 
 JavaScript
@@ -22,14 +27,17 @@ JavaScript
 HTML5, CSS3
 
 ⚙️ Backend
+
 Node.js
 
 Express.js
 
 🗃️ Database
+
 MongoDB (Mongoose ODM)
 
-📋 Prerequisites
+# 📋 Prerequisites
+
 Before you begin, ensure you have the following installed:
 
 Node.js >= 14.x
@@ -38,33 +46,35 @@ MongoDB (local or cloud e.g., MongoDB Atlas)
 
 Vercel CLI (for deployment, optional)
 
-🚀 Installation
-bash
-Copy
-Edit
-# Clone the repository
+# 🚀 Installation
+
+Clone the repository 
+
 git clone https://github.com/your-username/survey-management-system.git
 
-# Navigate to client and install dependencies
+Navigate to client and install dependencies
+
 cd client
 npm install
 
-# Navigate to server and install dependencies
+Navigate to server and install dependencies
+
 cd ../server
 npm install
-🏃‍♂️ Running the Application
-bash
-Copy
-Edit
-# In client/
+
+# 🏃‍♂️ Running the Application
+
+ In client/
+
 npm start        # Runs React frontend on http://localhost:3000
 
-# In server/
+ In server/
+
 node server.js   # Runs backend on http://localhost:5000
-📁 Project Structure
-pgsql
-Copy
-Edit
+
+#📁 Project Structure
+
+
 Survey-Management-System/
 │
 ├── client/
@@ -85,13 +95,17 @@ Survey-Management-System/
 │   └── vercel.json
 │
 └── README.md
-🔧 API Endpoints
+
+# 🔧 API Endpoints
+
 Auth
+
 POST /api/auth/register – Register new user
 
 POST /api/auth/login – Login and receive JWT
 
 Surveys
+
 GET /api/surveys – Get all surveys
 
 POST /api/surveys – Create a new survey
@@ -103,11 +117,13 @@ PUT /api/surveys/:id – Update survey
 DELETE /api/surveys/:id – Delete survey
 
 Questions
+
 POST /api/questions/:surveyId – Add question to a survey
 
 DELETE /api/questions/:id – Delete a question
 
-🔒 Security Features
+# 🔒 Security Features
+
 JWT-based route protection
 
 Password hashing using bcrypt
@@ -116,8 +132,7 @@ Input validation and error handling
 
 Protected survey and question modification endpoints
 
-🎯 Future Enhancements
-📈 Add response analytics and charts
+# 🎯 Future Enhancements
 
 📮 Enable email invites to participate in surveys
 
